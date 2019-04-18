@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>bépo</id>
+    <owners>Salamandar</owners>
+    <packageSourceUrl>https://github.com/Salamandar/chocolatey-bepo</packageSourceUrl>
+    <iconUrl>https://github.com/Salamandar/chocolatey-bepo/blob/master/bépo.png</iconUrl>
+    <tags>bépo keymap</tags>
+
+    <version>0.2</version>
+    <releaseNotes>This is the current (and only) release from 2009.</releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
+
+
+    <title>Bépo (Install)</title>
+    <authors>Ergodis</authors>
+    <projectUrl>https://bepo.fr</projectUrl>
+    <projectSourceUrl>https://bepo.fr/wiki/Pilote_Windows</projectSourceUrl>
+    <docsUrl>https://bepo.fr/wiki/Pilote_Windows</docsUrl>
+    <summary>Disposition de clavier francophone bépo</summary>
+    <description>Disposition de clavier francophone bépo</description>
+
+    <copyright>2009-2019</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
