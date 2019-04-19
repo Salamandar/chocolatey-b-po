@@ -5,10 +5,10 @@
     <id>bépo</id>
     <owners>Salamandar</owners>
     <packageSourceUrl>https://github.com/Salamandar/chocolatey-bepo</packageSourceUrl>
-    <iconUrl>https://github.com/Salamandar/chocolatey-bepo/blob/master/bépo.png</iconUrl>
+    <iconUrl>https://github.com/Salamandar/chocolatey-bepo/blob/master/bepo.png</iconUrl>
     <tags>bépo keymap</tags>
 
-    <version>0.2</version>
+    <version>0.2.1</version>
     <releaseNotes>This is the current (and only) release from 2009.</releaseNotes>
     <dependencies>
       <dependency id="autohotkey.portable" />

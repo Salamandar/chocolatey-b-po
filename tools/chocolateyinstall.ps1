@@ -6,15 +6,15 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   softwareName  = 'bépo'
 
-  url           = 'https://download.tuxfamily.org/dvorak/windows/bepo-azerty.exe'
+  url           = 'https://download.tuxfamily.org/dvorak/windows/bepo.exe'
   checksumType  = 'sha256'
-  checksum      = '2b6ac53d72b33f01a61d95e6257a8da567c3a3fceef50a82ecad948c5af94895'
+  checksum      = 'e5ebf8608dd20b3a852aea210aa190fdb5ae9b9c4a4012e30c343e01b792949b'
   fileType      = 'exe'
 }
 
 #Thanks to dtgm and the GitHub package for ideas.
 $ahkExe = 'AutoHotKey'
-$ahkFile = Join-Path $toolsDir "bépoInstall.ahk"
+$ahkFile = Join-Path $toolsDir "bepoInstall.ahk"
 $ahkProc = Start-Process -FilePath $ahkExe -ArgumentList $ahkFile -PassThru
 
 $ahkId = $ahkProc.Id
